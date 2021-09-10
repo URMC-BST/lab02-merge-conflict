@@ -1,0 +1,19 @@
+---
+title: "Lab 02 - Merge conflicts"
+author: "Insert your team's name here"
+date: "Insert date here"
+output: github_document
+---
+
+### Load packages and data
+
+```{r load-packages, message=FALSE}
+library(tidyverse) 
+```
+
+
+## Make a plot
+
+```{r cylinders}
+ggplot(mtcars, aes(x = factor(cyl), y = mpg)) + geom_boxplot()
+```
